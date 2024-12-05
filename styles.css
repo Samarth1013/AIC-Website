@@ -1,0 +1,140 @@
+/* General styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Section Styling */
+.section {
+    margin: 40px 0;
+    padding: 40px 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.section h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: #6c757d;
+}
+
+/* Team Member styling */
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.team-member {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 calc(45% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-member img {
+    width: 200px;  /* Increased size for better quality */
+    height: 200px;
+    border-radius: 50%;
+    object-fit: contain;  /* Ensures the image maintains its quality */
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    margin: 10px 0 5px;
+    color: #343a40;
+}
+
+.team-member p {
+    margin: 0;
+    color: #6c757d;
+}
+
+/* Social Links Styling */
+.social-link {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.large-logo {
+    width: 200px;
+}
